@@ -1,13 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #E88F2A;
-    --secondary: #FAF3EB;
-    --light: #FFFFFF;
-    --dark: #2B2825;
+    --primary: #cbce91ff;
+    --secondary: #faf3eb;
+    --light: #ffffff;
+    --dark: #2b2825;
 }
 
 .font-secondary {
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
 }
 
 h1,
@@ -29,13 +29,13 @@ h6,
 }
 
 .btn {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 600;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .btn-primary {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .border-inner {
@@ -92,14 +92,14 @@ h6,
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     padding: 30px 15px;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     color: var(--light);
     outline: none;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -112,7 +112,7 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
+    .navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -132,7 +132,7 @@ h6,
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .btn-play:before {
@@ -145,7 +145,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -160,7 +160,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -209,7 +209,7 @@ h6,
     z-index: 999;
     font-size: 30px;
     font-weight: normal;
-    color: #FFFFFF;
+    color: #ffffff;
     background: #000000;
     opacity: 1;
 }
@@ -244,32 +244,35 @@ h6,
     height: calc(100% - 45px);
     top: 135px;
     left: 0;
-    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/service.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 40, 37, 0.9), rgba(43, 40, 37, 0.9)),
+        url(../img/service.jpg) center center no-repeat;
     background-size: cover;
     z-index: -1;
 }
 
 .contact::after {
-    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)),
+        url(../img/bg.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .bg-offer {
-    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/offer.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 40, 37, 0.9), rgba(43, 40, 37, 0.9)),
+        url(../img/offer.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .team-item img {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .team-item:hover img {
     transform: scale(1.1);
-    filter: blur(5px)
+    filter: blur(5px);
 }
 
 .team-item .team-overlay {
-    transition: .5s;
+    transition: 0.5s;
     opacity: 0;
 }
 
@@ -291,8 +294,8 @@ h6,
     margin: 0 2px;
     width: 10px;
     height: 25px;
-    background: #DDDDDD;
-    transition: .5s;
+    background: #dddddd;
+    transition: 0.5s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -301,8 +304,8 @@ h6,
 }
 
 .testimonial-carousel .owl-item .testimonial-item {
-    opacity: .1;
-    transition: .5s;
+    opacity: 0.1;
+    transition: 0.5s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -310,9 +313,11 @@ h6,
 }
 
 .bg-img {
-    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 40, 37, 0.5), rgba(43, 40, 37, 0.5)),
+        url(../img/bg.jpg) center center no-repeat;
     background-size: cover;
-}@media (max-width: 700px) {
+}
+@media (max-width: 700px) {
     .cookie-wrapper {
         width: 100%;
     }
@@ -342,12 +347,12 @@ h6,
     display: none;
 }
 header i {
-    color: #E88F2A;
+    color: #cbce91ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #E88F2A;
+    color: #cbce91ff;
     font-weight: 500;
     text-align: center;
 }
@@ -355,7 +360,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #E88F2A;
+    color: #cbce91ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -367,10 +372,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #E88F2A;
+    border: 2px solid #cbce91ff;
     color: #fff;
     padding: 8px 0;
-    background: #E88F2A;
+    background: #cbce91ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -379,14 +384,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #E88F2A;
+    color: #cbce91ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #E88F2A;
+    color: #cbce91ff;
 }
 #declineBtn:hover {
-    background-color: #E88F2A;
+    background-color: #cbce91ff;
     color: #fff;
 }
 /* Footer Style */
